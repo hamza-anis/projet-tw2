@@ -1,0 +1,160 @@
+select, button{
+ background : #F7F9EE;
+ border : solid 1px;
+ padding : 3px;
+ border-radius : 5px;
+}
+
+body {
+    font-family : Helvetica ;
+    color : #F7F9EE;
+    background-color : #54586E;
+    padding : 0;
+    margin : 0;
+}
+#espace_variable>section>#connexion{
+ bottom:80%;
+ background-color: #FFBF00;
+ position: absolute;
+ right : 3%;
+}
+#espace_fixe>section>#recherche{
+ margin-top: 5px;
+ padding-top: 10px;
+ padding-left: 50px;
+ padding-right:50px;
+ margin-left: 5%;
+ margin-right: 65%;
+ background-color: red;
+}
+
+#espace_fixe>section>#maj_events{
+
+ margin-top:1%;
+ margin-right: 65%;
+ margin-left: 5%;
+ background-color: darkred;
+}
+
+#espace_variable>section>#mesabonnements{
+ position: absolute;
+ margin-left: 37% ;
+ margin-right: 30%;
+ padding-right: 20px;
+ padding-left: 15px;
+ padding-top: 10px;
+ padding-bottom: 85px;
+ top:10%;
+ background-color: #6495ED;
+}
+#espace_variable>section>#createEvent{
+ position: absolute;
+ top:10%;
+ margin-left: 70%;
+ margin-right: 2%;
+ background-color: orange;
+}
+#espace_variable>section>#abonnements{
+   position: absolute;
+   margin-top: 20px;
+   padding: 10px;
+   margin-left: 70%;
+   margin-right: 2%;
+   top:48%;
+   background-color:#1E90FF;
+}
+#abonnements>input{
+   display: inline-block;
+   width: 30%;
+}
+#create_event>label{
+   display: inline-block;
+ margin-top:5px;
+   margin-bottom: 2px;
+   text-align: left;
+}
+#create_event>input[type=text]{
+ display: inline-block;
+ width:35%;
+ float: right;
+}
+#create_event>select{
+ display:inline-block;
+ float:right;
+ width:39%;
+}
+#create_event>input[type=date]{
+ display: inline-block;
+ float:right;
+ margin-top: 2px;
+ width:35%;
+}
+
+
+input#pseudo{
+   width: 30%;
+   margin-left: 5%;
+   margin-right: 10%;
+}
+input#password{
+   width: 30%;
+   margin-left: 5%;
+   margin-right: 10%;
+}
+button#valid_search{
+ display: block;
+ margin: 0 auto;
+}
+button#connect_button{
+ display: block;
+ margin: 0 auto;
+
+}
+
+#form_login{
+ text-align : right;
+}
+#espace_fixe>nav{
+ display:none;
+}
+
+body>h1 {
+ color : darkgrey ;
+ text-align : center;
+ margin : 0;
+ padding : 10px;
+ background-color : white;
+}
+fieldset {
+ border : 1px solid darkgrey ;
+ margin : 10px ;
+}
+section#errorMessage{
+ background-color : lightyellow;
+ padding : 5pt;
+ margin : 10px ;
+}
+section.connecte{
+   margin-top: 10px;
+   padding: 10px;
+   background-color:salmon;
+   margin-left: 5%;
+   margin-right:65%;
+}
+#connecte>h2{
+ text-align : left;
+ margin-bottom : 4px;
+}
+#avatar{
+float : right;
+max-width : 80px;
+max-height : 120px;
+}
+
+table {
+ border-collapse : collapse;
+}
+table td {
+ border : solid 1pt black;
+ padding : 3pt;
+}

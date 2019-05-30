@@ -1,0 +1,68 @@
+select, button{
+ background : #F7F9EE;
+ border : solid 1px;
+ padding : 3px;
+ border-radius : 5px;
+}
+
+body {
+    font-family : Helvetica ;
+    color : #F7F9EE;
+    background-color : #54586E;
+    padding : 0;
+    margin : 0;
+}
+
+body>h1 {
+ color : darkgrey ;
+ text-align : center;
+ margin : 0;
+ padding : 10px;
+ background-color : white;
+}
+section>#connexion{
+ top:10%;
+ background-color: #FFBF00;
+ position: absolute;
+ right : 3%;
+ padding: 10px;
+}
+#recherche{
+ margin-top: 5px;
+ padding-top: 10px;
+ padding-left: 50px;
+ padding-right:50px;
+ margin-left: 5%;
+ margin-right: 60%;
+ background-color: red;
+}
+#createAccount{
+    display: block;
+    position: absolute;
+    left:55%;
+    right:3%;
+    top: 25%;
+    padding:20px;
+    background-color: salmon;
+}
+
+#createAccount>form>input{
+    margin-bottom: 10px;
+    display: block;
+    width: 80%;
+}
+
+
+section>#maj_events{
+ padding-top: 5px;
+ padding-left: 50px;
+ padding-right: 150px;
+ margin-top:5%;
+ margin-right: 60%;
+ margin-left: 5%;
+ background-color: darkred;
+}
+button#valid_search{
+ display: block;
+ margin: 0 auto;
+}
